@@ -4,13 +4,17 @@ const Practice2 = () => {
   /*
     1. Create post object with an id and title
   */
-  const post = {};
+  const post = {
+    id:1,
+    title:"text"
+  };
   return (
     <div className="practice">
       {/* 
         2. Call the Post component below
         3. Pass in the post object as a prop
       */}
+      <Post post ={post}></Post>
     </div>
   );
 };
