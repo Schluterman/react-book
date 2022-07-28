@@ -20,8 +20,8 @@ console.log(string.indexOf('a')); //tells the position of the first instant of '
 console.log(string.lastIndexOf('a')); //tells the position of the last instant of 'a'
 let findWord = 'You cannot end a sentence with because because because is a conjunction';
 console.log(findWord.indexOf('because')); // find the position of the first instant of the word because 
-console.log(word.lastIndexOf('because'));//find the position of the last instant of the word because
-console.log(word.search('because')); //using the search function to find the position of the first instant of the word because 
+console.log(findWord.lastIndexOf('because'));//find the position of the last instant of the word because
+console.log(findWord.search('because')); //using the search function to find the position of the first instant of the word because 
 console.log(string.trim()); // removes all white space from the beginning and the end of the string
 console.log(string.startsWith('30'));  //make statment = to true 30 is the start of the string 
 console.log(string.endsWith('t')); //checks to see if t is what the string ends with if so its true if not false 
@@ -56,6 +56,9 @@ console.log(rand);
 const randThree = Math.floor(Math.random()*256);
 console.log(randThree);
 //Question 10 idk
+let stringTwo = 'JavaScript';
+let sti = stringTwo.charAt(Math.floor(Math.random()*stringTwo.length));
+console.log(sti);
 console.log('1\t1\t1\t1\t1');
 console.log('2\t1\t2\t4\t8');
 console.log('3\t1\t3\t9\t27');
