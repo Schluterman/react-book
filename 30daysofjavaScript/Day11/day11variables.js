@@ -50,3 +50,14 @@ const users = [
   age:20
 }
 ]
+//Q1 
+let [e,pi,gravity,bodyTemp,boilingTemp] = constants
+console.log(e, pi, gravity, bodyTemp , boilingTemp);
+//Q2 Destructure and assign the elements of countries array to fin, est, sw, den, nor
+let [fin,est,sw,den,nor] = countries
+//Q3
+let {width: w, height: h, area: a, perimeter: p } = rectangle
+console.log(w, h, a, p)
+
+//LVL TWO 
+
