@@ -49,7 +49,11 @@ const users = [
   skills:['HTM', 'CSS', 'JS'],
   age:20
 }
+
+
 ]
+
+
 //Q1 
 let [e,pi,gravity,bodyTemp,boilingTemp] = constants
 console.log(e, pi, gravity, bodyTemp , boilingTemp);
@@ -60,4 +64,14 @@ let {width: w, height: h, area: a, perimeter: p } = rectangle
 console.log(w, h, a, p)
 
 //LVL TWO 
+//Q1 
+for (const {name,scores,skills,age} of users){
+  console.log(name,scores,skills,age)}
+//Q2
+for(const {skills}of users){
+let arr = (skills.length)
+if (skills.length <2){
+  console.log(name);//not sure 
+}
+}
 
