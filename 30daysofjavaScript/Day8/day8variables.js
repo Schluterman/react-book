@@ -13,7 +13,7 @@ const dog = {
         return: 'woof woof',
     },
     getFulllist: function(){
-        return `${this.name}${this.legs}${this.color}${this.age}${this.bark}`
+        return `${this.name} ${this.legs} ${this.color} ${this.age} ${this.bark}`
     }
 }
 dog.breed ='lab'
